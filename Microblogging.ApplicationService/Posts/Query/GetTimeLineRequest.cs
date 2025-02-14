@@ -1,0 +1,1 @@
+﻿public record GetTimeLineReqest(int userId) : IRequest<List<PostsViewModel>>;
